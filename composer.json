@@ -1,0 +1,42 @@
+{
+    "name": "studioespresso/craft-google-product-taxonomy",
+    "description": "Google Product Taxonomy Field",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "google product taxonomy",
+        "commerce",
+        "e-commerce",
+        "google shopping"
+    ],
+    "support": {
+        "docs": "https://github.com/studioespresso/craft-google-product-taxonomy/blob/master/README.md",
+        "issues": "https://github.com/studioespresso/craft-google-product-taxonomy/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Studio Espresso",
+            "homepage": "https://studioespresso.co/en"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "studioespresso\\googleproducttaxonomy\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Google Product Taxonomy",
+        "handle": "google-product-taxonomy",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "class": "studioespresso\\googleproducttaxonomy\\GoogleProductTaxonomy"
+    }
+}
